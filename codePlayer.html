@@ -1,0 +1,32 @@
+<html>	
+	<head>
+		<title>Code player</title>
+		<script src="C:\Ram\LOL\Web developer course\jQuery\jQuerycode.js"></script>
+		<script src="C:\Ram\LOL\Web developer course\jQuery\jquery-ui-1.12.1\jquery-ui.js"></script>
+		
+		<link href="C:\Ram\LOL\Web developer course\jQuery\jquery-ui-1.12.1\jquery-ui.css" rel="stylesheet">
+		<link href="codePlayer.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="header">
+			<div id="logo">
+				Code player
+			</div>
+			<div id="button-Container">
+				<div class="headerButton activeButton" id="html">HTML</div>
+				<div class="headerButton" id="css">CSS</div>
+				<div class="headerButton" id="javascript">JavaScript</div>
+				<div class="headerButton activeButton" id="output">Output</div>
+			</div>
+		</div>
+		<div id="container">
+			<textarea class="panel" id="htmlPanel"><p>Welcome</p></textarea>
+			<textarea class="panel hiddenPanel" id="cssPanel">p{color: black;}</textarea>
+			<textarea class="panel hiddenPanel" id="javascriptPanel"></textarea>
+			<iframe class="panel" id="outputPanel">Output</iframe>
+		</div>
+		<script type="text/javascript" src="codePlayer.js">
+			
+		</script>
+	</body>
+</html>
